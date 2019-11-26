@@ -9,7 +9,7 @@ DNS over HTTPS (DoH) and/or DNS over TLS (DoT) will bypass Pi-Hole since the bro
 
 2. Clone this repo.
 
-3. Run `sudo .blockpage.sh` to enable an actionable block page. This step isn't required, but highly recommended as it allows you to add a blocked page to the whitelist when it attempts to load.
+3. Run `sudo ./blockpage.sh` to enable an actionable block page. This step isn't required, but highly recommended as it allows you to add a blocked page to the whitelist when it attempts to load.
 
 4. Enable Conditional Formatting by entering the router IP and the name of the network in Settings. This allows Pi-Hole to report back the device name instead of the IP and makes the dashboard easier to read.
 
