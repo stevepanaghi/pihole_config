@@ -5,6 +5,11 @@ while read p; do
   echo pihole -b "$p"
 done <Lists/blacklist.txt
 
+# Adding to the regex list from regex.txt
+while read p; do
+  echo pihole -regex "$p"
+done <Lists/regex.txt
+
 # Adding to the whitelist from whitelist.txt
 while read p; do
   echo pihole -w "$p"
