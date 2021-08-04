@@ -3,7 +3,7 @@
 # Adding to the blacklist from blacklist.txt
 while read p; do
   echo pihole -b "$p"
-done <Lists/blacklist.txt
+done <Lists/deny_list.txt
 
 # Adding to the regex list from regex.txt
 while read p; do
@@ -13,7 +13,7 @@ done <Lists/regex.txt
 # Adding to the whitelist from whitelist.txt
 while read p; do
   echo pihole -w "$p"
-done <Lists/whitelist.txt
+done <Lists/approve_list.txt
 
 # Adding to Blocklists/Gravity
 while read p; do

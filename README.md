@@ -11,7 +11,7 @@ DNS over HTTPS (DoH) and/or DNS over TLS (DoT) will bypass Pi-Hole since the bro
 
 3. Enable Conditional Formatting by entering the router IP and the name of the network in Settings. This allows Pi-Hole to report back the device name instead of the IP and makes the dashboard easier to read.
 
-4. Run `sudo ./block_lists.sh` to insert Whitelist, Blacklist, and Block Lists. 
+4. Run `sudo ./block_lists.sh` to insert the Approve List, Deny List, and Regex list. 
 
 5. Run `sudo ./gravityoptimise.sh` to parse through the gravity lists and remove those that are listed via regex. Note this is a one off script. To have it run on a schedule, copy/paste the following to into terminal:
 
