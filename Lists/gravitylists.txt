@@ -10,3 +10,4 @@ https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
 https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 https://blocklistproject.github.io/Lists/ads.txt
+https://raw.githubusercontent.com/kevinle-1/Windows-telemetry-blocklist/master/windowsblock.txt
