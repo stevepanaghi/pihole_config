@@ -9,3 +9,4 @@ https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
 https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+https://blocklistproject.github.io/Lists/ads.txt
